@@ -1,0 +1,742 @@
+{
+  "nombre": "ident",
+  "inicial": "q_Estado#aUnionZ",
+  "final": "q_FKleenePorAzU09",
+  "estados": [
+    "q_Estado#aUnionZ",
+    "q_Estado#a-z",
+    "q_FEstado#a-z",
+    "q_Estado#A-Z",
+    "q_FEstado#A-Z",
+    "q_FaUnionZ",
+    "q_FKleenePorAzU09",
+    "q_Estado#aZunion09",
+    "q_Estado#0-9",
+    "q_FEstado#0-9",
+    "q_Estado#((a-z)|(A-Z))",
+    "q_F((a-z)|(A-Z))",
+    "q_FaZunion09"
+  ],
+  "transiciones": [
+    {
+      "origen": "q_Estado#aUnionZ",
+      "destino": "q_Estado#a-z",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_Estado#aUnionZ",
+      "destino": "q_Estado#A-Z",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "a"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "b"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "c"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "d"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "e"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "f"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "g"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "h"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "i"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "j"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "k"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "l"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "m"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "n"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "o"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "p"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "q"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "r"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "s"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "t"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "u"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "v"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "w"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "x"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "y"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "z"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "A"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "B"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "C"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "D"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "E"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "F"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "G"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "H"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "I"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "J"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "K"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "L"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "M"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "N"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "O"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "P"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "Q"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "R"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "S"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "T"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "U"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "V"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "W"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "X"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "Y"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "Z"
+    },
+    {
+      "origen": "q_FEstado#a-z",
+      "destino": "q_FaUnionZ",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_FEstado#A-Z",
+      "destino": "q_FaUnionZ",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_Estado#KleenePorAzU09",
+      "destino": "q_Estado#aZunion09",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_Estado#KleenePorAzU09",
+      "destino": "q_FKleenePorAzU09",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_FaZunion09",
+      "destino": "q_FKleenePorAzU09",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_FaZunion09",
+      "destino": "q_Estado#aZunion09",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_Estado#aZunion09",
+      "destino": "q_Estado#0-9",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_Estado#aZunion09",
+      "destino": "q_Estado#((a-z)|(A-Z))",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_Estado#0-9",
+      "destino": "q_FEstado#0-9",
+      "simbolo": "0"
+    },
+    {
+      "origen": "q_Estado#0-9",
+      "destino": "q_FEstado#0-9",
+      "simbolo": "1"
+    },
+    {
+      "origen": "q_Estado#0-9",
+      "destino": "q_FEstado#0-9",
+      "simbolo": "2"
+    },
+    {
+      "origen": "q_Estado#0-9",
+      "destino": "q_FEstado#0-9",
+      "simbolo": "3"
+    },
+    {
+      "origen": "q_Estado#0-9",
+      "destino": "q_FEstado#0-9",
+      "simbolo": "4"
+    },
+    {
+      "origen": "q_Estado#0-9",
+      "destino": "q_FEstado#0-9",
+      "simbolo": "5"
+    },
+    {
+      "origen": "q_Estado#0-9",
+      "destino": "q_FEstado#0-9",
+      "simbolo": "6"
+    },
+    {
+      "origen": "q_Estado#0-9",
+      "destino": "q_FEstado#0-9",
+      "simbolo": "7"
+    },
+    {
+      "origen": "q_Estado#0-9",
+      "destino": "q_FEstado#0-9",
+      "simbolo": "8"
+    },
+    {
+      "origen": "q_Estado#0-9",
+      "destino": "q_FEstado#0-9",
+      "simbolo": "9"
+    },
+    {
+      "origen": "q_Estado#((a-z)|(A-Z))",
+      "destino": "q_Estado#a-z",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_Estado#((a-z)|(A-Z))",
+      "destino": "q_Estado#A-Z",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "a"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "b"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "c"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "d"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "e"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "f"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "g"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "h"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "i"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "j"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "k"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "l"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "m"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "n"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "o"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "p"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "q"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "r"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "s"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "t"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "u"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "v"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "w"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "x"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "y"
+    },
+    {
+      "origen": "q_Estado#a-z",
+      "destino": "q_FEstado#a-z",
+      "simbolo": "z"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "A"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "B"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "C"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "D"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "E"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "F"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "G"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "H"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "I"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "J"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "K"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "L"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "M"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "N"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "O"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "P"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "Q"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "R"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "S"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "T"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "U"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "V"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "W"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "X"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "Y"
+    },
+    {
+      "origen": "q_Estado#A-Z",
+      "destino": "q_FEstado#A-Z",
+      "simbolo": "Z"
+    },
+    {
+      "origen": "q_FEstado#a-z",
+      "destino": "q_F((a-z)|(A-Z))",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_FEstado#A-Z",
+      "destino": "q_F((a-z)|(A-Z))",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_FEstado#0-9",
+      "destino": "q_FaZunion09",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_F((a-z)|(A-Z))",
+      "destino": "q_FaZunion09",
+      "simbolo": "ε"
+    },
+    {
+      "origen": "q_FaUnionZ",
+      "destino": "q_Estado#KleenePorAzU09",
+      "simbolo": "ε"
+    }
+  ],
+  "simbolos": [
+    "ε",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ]
+}

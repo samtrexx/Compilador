@@ -1,0 +1,70 @@
+[a-c]*d[0-9]+
+
+
+
+# tipo de gramarica: 
+
+E -> E or T | T
+T -> T conc Cerradura | Cerradura
+C -> C+ | C* | C? | F
+F -> (E) | caracter
+
+
+
+Obtener el AFN asociado a una expresion regular, utilizando derivación recursivo. 
+Solucion: 
+definamos la gramatica de las ER 
+E-> E or T | T 
+T-> T conc Cerradura | Cerradura 
+C-> C+|C*|C?|F 
+F-> (E) | caracter 
+
+
+
+
+-----------Ejemplo: Si 
+O = (a|b)+&E* 
+-----------
+obtengamos el arbol de derivacion. 
+Foto. 22/04 
+A ese arbol se debe de eliminar la recursion por la izq por medio de la formula 
+E->TEp
+Ep->Or|Ep|e
+F->CTp
+T->CTp 
+Tp->concCTp|e
+C->FCp
+Cp->+Cp|* Cp|?Cp|e
+F->(e)|caracterObtener el AFN asociado a una expresion regular, utilizando derivación recursivo. 
+Solucion: 
+definamos la gramatica de las ER 
+E-> E or T | T 
+T-> T conc Cerradura | Cerradura 
+C-> C+|C*|C?|F 
+F-> (E) | caracter 
+
+Ejemplo: Si 
+O = (a|b)+&E* 
+obtengamos el arbol de derivacion. 
+Foto. 22/04 
+A ese arbol se debe de eliminar la recursion por la izq por medio de la formula 
+E->TEp
+Ep->Or|Ep|e
+F->CTp
+T->CTp 
+Tp->concCTp|e
+C->FCp
+Cp->+Cp|* Cp|?Cp|e
+F->(e)|caracter
+
+
+
+  def to_h
+    {
+      estados: @estados,
+      alfabeto: @alfabeto,
+      transiciones: @transiciones,
+      estado_inicial: @estado_inicial,
+      estados_aceptacion: @estados_aceptacion
+    }
+  end

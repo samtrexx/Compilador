@@ -1,0 +1,19 @@
+{
+  "nombre": "resta",
+  "inicial": "q_Estado#resta",
+  "final": "q_FEstado#resta",
+  "estados": [
+    "q_Estado#resta",
+    "q_FEstado#resta"
+  ],
+  "transiciones": [
+    {
+      "origen": "q_Estado#resta",
+      "destino": "q_FEstado#resta",
+      "simbolo": "-"
+    }
+  ],
+  "simbolos": [
+    "-"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "estados": [
+    [
+      "q_Estado#parIZQ"
+    ],
+    [
+      "q_FEstado#parIZQ"
+    ],
+    [
+
+    ]
+  ],
+  "transiciones": [
+    {
+      "estado_origen": [
+        "q_Estado#parIZQ"
+      ],
+      "simbolo": "(",
+      "estados_destino": [
+        "q_FEstado#parIZQ"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#parIZQ"
+      ],
+      "simbolo": "(",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "(",
+      "estados_destino": [
+
+      ]
+    }
+  ],
+  "simbolos": [
+    "("
+  ],
+  "inicial": [
+    "q_Estado#parIZQ"
+  ],
+  "final": [
+    [
+      "q_FEstado#parIZQ"
+    ]
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "start_state": "S4",
+  "final_state": "S9",
+  "states": {
+    "S4": {
+      "is_final": false,
+      "transitions": {
+        "": [
+          "S0",
+          "S2"
+        ]
+      }
+    },
+    "S0": {
+      "is_final": false,
+      "transitions": {
+        "a": [
+          "S1"
+        ]
+      }
+    },
+    "S1": {
+      "is_final": false,
+      "transitions": {
+        "": [
+          "S5"
+        ]
+      }
+    },
+    "S5": {
+      "is_final": false,
+      "transitions": {
+        "": [
+          "S4",
+          "S7",
+          "S6"
+        ]
+      }
+    },
+    "S7": {
+      "is_final": false,
+      "transitions": {
+        "": [
+          "S8"
+        ]
+      }
+    },
+    "S8": {
+      "is_final": false,
+      "transitions": {
+        "c": [
+          "S9"
+        ]
+      }
+    },
+    "S9": {
+      "is_final": true,
+      "transitions": {
+      }
+    },
+    "S6": {
+      "is_final": false,
+      "transitions": {
+        "": [
+          "S4",
+          "S7"
+        ]
+      }
+    },
+    "S2": {
+      "is_final": false,
+      "transitions": {
+        "b": [
+          "S3"
+        ]
+      }
+    },
+    "S3": {
+      "is_final": false,
+      "transitions": {
+        "": [
+          "S5"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[a-c]*d[0-9]+
+
+
+
+# tipo de gramarica: 
+
+E -> E or T | T
+T -> T conc Cerradura | Cerradura
+C -> C+ | C* | C? | F
+F -> (E) | caracter

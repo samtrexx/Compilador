@@ -1,0 +1,19 @@
+{
+  "nombre": "div",
+  "inicial": "q_Estado#div",
+  "final": "q_FEstado#div",
+  "estados": [
+    "q_Estado#div",
+    "q_FEstado#div"
+  ],
+  "transiciones": [
+    {
+      "origen": "q_Estado#div",
+      "destino": "q_FEstado#div",
+      "simbolo": "/"
+    }
+  ],
+  "simbolos": [
+    "/"
+  ]
+}

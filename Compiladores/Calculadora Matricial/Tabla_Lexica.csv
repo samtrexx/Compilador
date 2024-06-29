@@ -1,0 +1,10 @@
+    '+' => 30,
+    '-' => 40,
+    '*' => 50,
+    '/' => 60,
+    '[' => 70,    # Inicio de matriz
+    ']' => 80,    # Fin de matriz
+    ',' => 90,    # Separador de elementos de matriz
+    ';' => 100,   # Separador de filas de matriz
+    '(' => 110,   # Paréntesis izquierdo
+    ')' => 120    # Paréntesis derecho

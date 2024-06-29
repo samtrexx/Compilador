@@ -1,0 +1,19 @@
+{
+  "nombre": "espace",
+  "inicial": "q_Estado#espace",
+  "final": "q_FEstado#espace",
+  "estados": [
+    "q_Estado#espace",
+    "q_FEstado#espace"
+  ],
+  "transiciones": [
+    {
+      "origen": "q_Estado#espace",
+      "destino": "q_FEstado#espace",
+      "simbolo": " "
+    }
+  ],
+  "simbolos": [
+    " "
+  ]
+}

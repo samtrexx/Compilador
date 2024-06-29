@@ -1,0 +1,141 @@
+{
+  "estados": [
+    "q_4",
+    "aceptacion",
+    "q._3",
+    "aceptacion",
+    "q._3",
+    "concat_afn2_q_2",
+    "concat_afn2_aceptacion",
+    "concat_afn2_qq0_1_aceptacion_star",
+    "concat_afn2_qq0_1_aceptacion_star",
+    "concat_afn2_q0_1",
+    "concat_afn2_aceptacion",
+    "concat_afn2_q0_1",
+    "concat_afn2_q1_1",
+    "concat_afn2_q2_1",
+    "concat_afn2_q3_1",
+    "concat_afn2_q4_1",
+    "concat_afn2_q5_1",
+    "concat_afn2_q6_1",
+    "concat_afn2_q7_1",
+    "concat_afn2_q8_1",
+    "concat_afn2_q9_1"
+  ],
+  "transiciones": [
+    {
+      "estado_origen": "q._3",
+      "simbolo": ".",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_q0_1",
+      "simbolo": "0",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_q0_1",
+      "simbolo": "1",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_q0_1",
+      "simbolo": "2",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_q0_1",
+      "simbolo": "3",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_q0_1",
+      "simbolo": "4",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_q0_1",
+      "simbolo": "5",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_q0_1",
+      "simbolo": "6",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_q0_1",
+      "simbolo": "7",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_q0_1",
+      "simbolo": "8",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_q0_1",
+      "simbolo": "9",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qq0_1_aceptacion_star",
+      "simbolo": "ε",
+      "estados_destino": "concat_afn2_q0_1"
+    },
+    {
+      "estado_origen": "concat_afn2_aceptacion",
+      "simbolo": "ε",
+      "estados_destino": "concat_afn2_qq0_1_aceptacion_star"
+    },
+    {
+      "estado_origen": "concat_afn2_aceptacion",
+      "simbolo": "ε",
+      "estados_destino": "concat_afn2_q0_1"
+    },
+    {
+      "estado_origen": "aceptacion",
+      "simbolo": "ε",
+      "estados_destino": "concat_afn2_qq0_1_aceptacion_star"
+    }
+  ],
+  "alfabeto": [
+    [
+      "."
+    ],
+    [
+      "0"
+    ],
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "3"
+    ],
+    [
+      "4"
+    ],
+    [
+      "5"
+    ],
+    [
+      "6"
+    ],
+    [
+      "7"
+    ],
+    [
+      "8"
+    ],
+    [
+      "9"
+    ]
+  ],
+  "estado_inicial": "q._3",
+  "estados_aceptacion": [
+    "concat_afn2_aceptacion"
+  ]
+}

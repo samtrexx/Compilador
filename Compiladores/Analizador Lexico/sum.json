@@ -1,0 +1,19 @@
+{
+  "nombre": "sum",
+  "inicial": "q_Estado#sum",
+  "final": "q_FEstado#sum",
+  "estados": [
+    "q_Estado#sum",
+    "q_FEstado#sum"
+  ],
+  "transiciones": [
+    {
+      "origen": "q_Estado#sum",
+      "destino": "q_FEstado#sum",
+      "simbolo": "+"
+    }
+  ],
+  "simbolos": [
+    "+"
+  ]
+}

@@ -1,0 +1,13 @@
+
+Gramatica para Aritmeticas.
+
+E -> E + T | E - T | T
+T -> T * F | T / F | F
+F -> ( E ) | num | ident | space
+
+
+
+(3 + 5) * (2 - 4) / ident + 6
+
+3 ^ 2 + sin(1) * (2 - 4) / ident + 6
+(3 + 5) * (2 - 4) / (3 + 6)

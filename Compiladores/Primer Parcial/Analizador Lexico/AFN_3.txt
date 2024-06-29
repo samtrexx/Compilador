@@ -1,0 +1,23 @@
+{
+  "estados": [
+    "q._3",
+    "aceptacion",
+    "q._3"
+  ],
+  "transiciones": [
+    {
+      "estado_origen": "q._3",
+      "simbolo": ".",
+      "estados_destino": "aceptacion"
+    }
+  ],
+  "alfabeto": [
+    [
+      "."
+    ]
+  ],
+  "estado_inicial": "q._3",
+  "estados_aceptacion": [
+    "aceptacion"
+  ]
+}

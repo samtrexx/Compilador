@@ -1,0 +1,53 @@
+{
+  "estados": [
+    [
+      "q_Estado#sum"
+    ],
+    [
+      "q_FEstado#sum"
+    ],
+    [
+
+    ]
+  ],
+  "transiciones": [
+    {
+      "estado_origen": [
+        "q_Estado#sum"
+      ],
+      "simbolo": "+",
+      "estados_destino": [
+        "q_FEstado#sum"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#sum"
+      ],
+      "simbolo": "+",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "+",
+      "estados_destino": [
+
+      ]
+    }
+  ],
+  "simbolos": [
+    "+"
+  ],
+  "inicial": [
+    "q_Estado#sum"
+  ],
+  "final": [
+    [
+      "q_FEstado#sum"
+    ]
+  ]
+}

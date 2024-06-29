@@ -1,0 +1,19 @@
+{
+  "nombre": "por",
+  "inicial": "q_Estado#por",
+  "final": "q_FEstado#por",
+  "estados": [
+    "q_Estado#por",
+    "q_FEstado#por"
+  ],
+  "transiciones": [
+    {
+      "origen": "q_Estado#por",
+      "destino": "q_FEstado#por",
+      "simbolo": "*"
+    }
+  ],
+  "simbolos": [
+    "*"
+  ]
+}

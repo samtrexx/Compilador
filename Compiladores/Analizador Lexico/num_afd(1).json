@@ -1,0 +1,1777 @@
+{
+  "estados": [
+    [
+      "q_Estado#09Mas",
+      "q_Estado#0-9"
+    ],
+    [
+      "q_Estado#0-9"
+    ],
+    [
+      "q_FEstado#0-9",
+      "q_F09Mas",
+      "q_Estado#0-9",
+      "q_Estado#.",
+      "q_Estado#opcionalDecimal",
+      "q_FopcionalDecimal"
+    ],
+    [
+
+    ],
+    [
+      "q_F09Mas",
+      "q_Estado#0-9",
+      "q_Estado#.",
+      "q_Estado#opcionalDecimal",
+      "q_FopcionalDecimal"
+    ],
+    [
+      "q_FEstado#.",
+      "q_Estado#Decimal"
+    ],
+    [
+      "q_Estado#Decimal"
+    ],
+    [
+      "q_FEstado#Decimal",
+      "q_Estado#Decimal",
+      "q_FopcionalDecimal"
+    ],
+    [
+      "q_Estado#Decimal",
+      "q_FopcionalDecimal"
+    ],
+    [
+      "q_Estado#.",
+      "q_Estado#opcionalDecimal",
+      "q_FopcionalDecimal"
+    ],
+    [
+      "q_FopcionalDecimal"
+    ]
+  ],
+  "transiciones": [
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+        "q_Estado#0-9"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#09Mas",
+        "q_Estado#0-9"
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+        "q_Estado#Decimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+        "q_FEstado#Decimal",
+        "q_Estado#Decimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#Decimal"
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+        "q_FEstado#.",
+        "q_Estado#Decimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_FopcionalDecimal"
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "ε",
+      "estados_destino": [
+
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "0",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "1",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "2",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "3",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "4",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "5",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "6",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "7",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "8",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": "9",
+      "estados_destino": [
+        "q_FEstado#0-9",
+        "q_F09Mas",
+        "q_Estado#0-9",
+        "q_Estado#.",
+        "q_Estado#opcionalDecimal",
+        "q_FopcionalDecimal"
+      ]
+    },
+    {
+      "estado_origen": [
+        "q_Estado#0-9"
+      ],
+      "simbolo": ".",
+      "estados_destino": [
+
+      ]
+    }
+  ],
+  "simbolos": [
+    "ε",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "."
+  ],
+  "inicial": [
+    "q_Estado#09Mas",
+    "q_Estado#0-9"
+  ],
+  "final": [
+    [
+      "q_FEstado#0-9",
+      "q_F09Mas",
+      "q_Estado#0-9",
+      "q_Estado#.",
+      "q_Estado#opcionalDecimal",
+      "q_FopcionalDecimal"
+    ],
+    [
+      "q_F09Mas",
+      "q_Estado#0-9",
+      "q_Estado#.",
+      "q_Estado#opcionalDecimal",
+      "q_FopcionalDecimal"
+    ],
+    [
+      "q_FEstado#Decimal",
+      "q_Estado#Decimal",
+      "q_FopcionalDecimal"
+    ],
+    [
+      "q_Estado#Decimal",
+      "q_FopcionalDecimal"
+    ],
+    [
+      "q_Estado#.",
+      "q_Estado#opcionalDecimal",
+      "q_FopcionalDecimal"
+    ],
+    [
+      "q_FopcionalDecimal"
+    ]
+  ]
+}

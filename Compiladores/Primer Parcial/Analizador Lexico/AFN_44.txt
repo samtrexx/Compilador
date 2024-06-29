@@ -1,0 +1,347 @@
+{
+  "estados": [
+    "q_4",
+    "aceptacion",
+    "q0_2",
+    "aceptacion",
+    "q0_2",
+    "q1_2",
+    "q2_2",
+    "q3_2",
+    "q4_2",
+    "q5_2",
+    "q6_2",
+    "q7_2",
+    "q8_2",
+    "q9_2",
+    "concat_afn2_qA_3",
+    "concat_afn2_aceptacion",
+    "concat_afn2_qA_3",
+    "concat_afn2_qB_3",
+    "concat_afn2_qC_3",
+    "concat_afn2_qD_3",
+    "concat_afn2_qE_3",
+    "concat_afn2_qF_3",
+    "concat_afn2_qG_3",
+    "concat_afn2_qH_3",
+    "concat_afn2_qI_3",
+    "concat_afn2_qJ_3",
+    "concat_afn2_qK_3",
+    "concat_afn2_qL_3",
+    "concat_afn2_qM_3",
+    "concat_afn2_qN_3",
+    "concat_afn2_qO_3",
+    "concat_afn2_qP_3",
+    "concat_afn2_qQ_3",
+    "concat_afn2_qR_3",
+    "concat_afn2_qS_3",
+    "concat_afn2_qT_3",
+    "concat_afn2_qU_3",
+    "concat_afn2_qV_3",
+    "concat_afn2_qW_3",
+    "concat_afn2_qX_3",
+    "concat_afn2_qY_3",
+    "concat_afn2_qZ_3"
+  ],
+  "transiciones": [
+    {
+      "estado_origen": "q0_2",
+      "simbolo": "0",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_2",
+      "simbolo": "1",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_2",
+      "simbolo": "2",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_2",
+      "simbolo": "3",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_2",
+      "simbolo": "4",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_2",
+      "simbolo": "5",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_2",
+      "simbolo": "6",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_2",
+      "simbolo": "7",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_2",
+      "simbolo": "8",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_2",
+      "simbolo": "9",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "A",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "B",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "C",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "D",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "E",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "F",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "G",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "H",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "I",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "J",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "K",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "L",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "M",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "N",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "O",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "P",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "Q",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "R",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "S",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "T",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "U",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "V",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "W",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "X",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "Y",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "concat_afn2_qA_3",
+      "simbolo": "Z",
+      "estados_destino": "concat_afn2_aceptacion"
+    },
+    {
+      "estado_origen": "aceptacion",
+      "simbolo": "ε",
+      "estados_destino": "concat_afn2_qA_3"
+    }
+  ],
+  "alfabeto": [
+    [
+      "0"
+    ],
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "3"
+    ],
+    [
+      "4"
+    ],
+    [
+      "5"
+    ],
+    [
+      "6"
+    ],
+    [
+      "7"
+    ],
+    [
+      "8"
+    ],
+    [
+      "9"
+    ],
+    [
+      "A"
+    ],
+    [
+      "B"
+    ],
+    [
+      "C"
+    ],
+    [
+      "D"
+    ],
+    [
+      "E"
+    ],
+    [
+      "F"
+    ],
+    [
+      "G"
+    ],
+    [
+      "H"
+    ],
+    [
+      "I"
+    ],
+    [
+      "J"
+    ],
+    [
+      "K"
+    ],
+    [
+      "L"
+    ],
+    [
+      "M"
+    ],
+    [
+      "N"
+    ],
+    [
+      "O"
+    ],
+    [
+      "P"
+    ],
+    [
+      "Q"
+    ],
+    [
+      "R"
+    ],
+    [
+      "S"
+    ],
+    [
+      "T"
+    ],
+    [
+      "U"
+    ],
+    [
+      "V"
+    ],
+    [
+      "W"
+    ],
+    [
+      "X"
+    ],
+    [
+      "Y"
+    ],
+    [
+      "Z"
+    ]
+  ],
+  "estado_inicial": "q0_2",
+  "estados_aceptacion": [
+    "concat_afn2_aceptacion"
+  ]
+}

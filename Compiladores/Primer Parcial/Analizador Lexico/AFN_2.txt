@@ -1,0 +1,123 @@
+{
+  "estados": [
+    "q_2",
+    "aceptacion",
+    "qq0_1_aceptacion_star",
+    "qq0_1_aceptacion_star",
+    "q0_1",
+    "aceptacion",
+    "q0_1",
+    "q1_1",
+    "q2_1",
+    "q3_1",
+    "q4_1",
+    "q5_1",
+    "q6_1",
+    "q7_1",
+    "q8_1",
+    "q9_1"
+  ],
+  "transiciones": [
+    {
+      "estado_origen": "q0_1",
+      "simbolo": "0",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_1",
+      "simbolo": "1",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_1",
+      "simbolo": "2",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_1",
+      "simbolo": "3",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_1",
+      "simbolo": "4",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_1",
+      "simbolo": "5",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_1",
+      "simbolo": "6",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_1",
+      "simbolo": "7",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_1",
+      "simbolo": "8",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "q0_1",
+      "simbolo": "9",
+      "estados_destino": "aceptacion"
+    },
+    {
+      "estado_origen": "qq0_1_aceptacion_star",
+      "simbolo": "ε",
+      "estados_destino": "q0_1"
+    },
+    {
+      "estado_origen": "aceptacion",
+      "simbolo": "ε",
+      "estados_destino": "qq0_1_aceptacion_star"
+    },
+    {
+      "estado_origen": "aceptacion",
+      "simbolo": "ε",
+      "estados_destino": "q0_1"
+    }
+  ],
+  "alfabeto": [
+    [
+      "0"
+    ],
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "3"
+    ],
+    [
+      "4"
+    ],
+    [
+      "5"
+    ],
+    [
+      "6"
+    ],
+    [
+      "7"
+    ],
+    [
+      "8"
+    ],
+    [
+      "9"
+    ]
+  ],
+  "estado_inicial": "qq0_1_aceptacion_star",
+  "estados_aceptacion": [
+    "aceptacion"
+  ]
+}

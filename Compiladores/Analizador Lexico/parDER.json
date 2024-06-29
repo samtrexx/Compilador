@@ -1,0 +1,19 @@
+{
+  "nombre": "parDER",
+  "inicial": "q_Estado#parDER",
+  "final": "q_FEstado#parDER",
+  "estados": [
+    "q_Estado#parDER",
+    "q_FEstado#parDER"
+  ],
+  "transiciones": [
+    {
+      "origen": "q_Estado#parDER",
+      "destino": "q_FEstado#parDER",
+      "simbolo": ")"
+    }
+  ],
+  "simbolos": [
+    ")"
+  ]
+}

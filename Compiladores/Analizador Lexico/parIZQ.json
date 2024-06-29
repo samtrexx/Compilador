@@ -1,0 +1,19 @@
+{
+  "nombre": "parIZQ",
+  "inicial": "q_Estado#parIZQ",
+  "final": "q_FEstado#parIZQ",
+  "estados": [
+    "q_Estado#parIZQ",
+    "q_FEstado#parIZQ"
+  ],
+  "transiciones": [
+    {
+      "origen": "q_Estado#parIZQ",
+      "destino": "q_FEstado#parIZQ",
+      "simbolo": "("
+    }
+  ],
+  "simbolos": [
+    "("
+  ]
+}
